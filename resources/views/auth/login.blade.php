@@ -43,6 +43,10 @@
                     {{ __('Log in') }}
                 </x-jet-button>
             </div>
+            <div class="mt-4">
+                <a href="{{ route('social.login', ['provider' => 'facebook']) }}" class="block text-center bg-blue-600 hover:bg-blue-900">facebook login</a>
+            </div>
+
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
